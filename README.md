@@ -1,4 +1,7 @@
 # math-IR-ARQMath-CompuBERT
+All contents of this project are for a John's Hopkins University Final Project in the course: Information Retrieval.
+
+
 ### Edit as of: 12/4/2022
 
 **Credit to CompuBERT for starter code (https://github.com/MIR-MU/CompuBERT/)**
