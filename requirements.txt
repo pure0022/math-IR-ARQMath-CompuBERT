@@ -4,7 +4,6 @@ beautifulsoup4==4.11.1
 certifi==2022.9.24
 gensim==3.4.0
 lxml==4.9.1
-mkl-service==2.4.0
 multiprocess==0.70.14
 nltk==3.7
 numpy==1.21.6
@@ -22,4 +21,7 @@ torchaudio==0.13.0
 torchvision==0.14.0
 tqdm==4.64.1
 webencodings==0.5.1
+pytorch_optimizer==2.0.1
+evaluate==0.3.0
+datasets==2.7.1
 xmlr @ git+https://github.com/hbldh/xmlr@a5fe128b4502b438f0f09f7727a392e29ad288a8

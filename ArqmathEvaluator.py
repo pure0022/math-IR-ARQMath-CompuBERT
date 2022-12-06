@@ -84,7 +84,7 @@ class ArqmathEvaluator(EmbeddingSimilarityEvaluator):
 
         return results
 
-    def __call__(self, *args, eval_all_metrics=True, report_tsv: str = False, **kwargs) -> float:
+    def __call__(self, *args, eval_all_metrics=False, report_tsv: str = False, **kwargs) -> float:
         def trec_metric_f():
             results = self.eval_transformer()
             ndcg_val = get_ndcg(results, task=self.task, subset=self.subset)
