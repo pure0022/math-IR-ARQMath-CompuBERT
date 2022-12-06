@@ -16,9 +16,6 @@ scikit-learn==1.0.2
 scipy==1.7.3
 sentence-transformers==2.2.2
 sentencepiece==0.1.96
-torch==1.13.0
-torchaudio==0.13.0
-torchvision==0.14.0
 tqdm==4.64.1
 webencodings==0.5.1
 pytorch_optimizer==2.0.1
