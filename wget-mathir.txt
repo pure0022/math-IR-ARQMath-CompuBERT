@@ -1,0 +1,14 @@
+Comments.xml
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1vDn_8sCHm_6lg4JuJBxlVsUEPU5KL4Mv' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1vDn_8sCHm_6lg4JuJBxlVsUEPU5KL4Mv" -O Comments.xml && rm -rf /tmp/cookies.txt
+
+Posts.xml
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=14SSwTqLZgLVP6iDsAJbmxgb01a8NYyDb' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=14SSwTqLZgLVP6iDsAJbmxgb01a8NYyDb" -O Posts.xml && rm -rf /tmp/cookies.txt
+
+Votes.xml
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1jrDxE_NtIrZXh7o6OuJNQg233YrpQga8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1jrDxE_NtIrZXh7o6OuJNQg233YrpQga8" -O Votes.xml && rm -rf /tmp/cookies.txt
+
+postprocessor.pickle
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1zMWja-Ok4ZPUkgdJJfb4sbHkXrLuKE83' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1zMWja-Ok4ZPUkgdJJfb4sbHkXrLuKE83" -O postprocessor.pickle && rm -rf /tmp/cookies.txt
+
+all_data.pickle
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1m6q6fu1yuzm7q2y5yFzJHM9CSd9bdqQB' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1m6q6fu1yuzm7q2y5yFzJHM9CSd9bdqQB" -O all_data.pickle && rm -rf /tmp/cookies.txt
