@@ -22,9 +22,6 @@ class TopicReader:
     you have access to the 4 attributes mentioned above.
     """
 
-    eval_topics = {"A.31": 1,
-                   "A.78": 3}
-
     def __init__(self, topic_file_path):
         self.map_topics = self.__read_topics(topic_file_path)
 
@@ -46,8 +43,8 @@ class TopicReader:
         return None
 
 
-"In this example, the title and the question body of topic with id A.1 is printed."
-# topic_file_path = "Topics_V1.2.xml"
+# "In this example, the title and the question body of topic with id A.1 is printed."
+# topic_file_path = "Topics_V2.0.xml"
 # topic_reader = TopicReader(topic_file_path)
 # topic_id = "A.1"
 # print(topic_reader.get_topic(topic_id).title)
