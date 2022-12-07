@@ -8,7 +8,7 @@ Votes.xml
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1jrDxE_NtIrZXh7o6OuJNQg233YrpQga8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1jrDxE_NtIrZXh7o6OuJNQg233YrpQga8" -O Votes.xml && rm -rf /tmp/cookies.txt
 
 Topics.xml
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1EimgCZPeg1mBuQcovHCG-GAegzs7cZM4' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EimgCZPeg1mBuQcovHCG-GAegzs7cZM4" -O Votes.xml && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1EimgCZPeg1mBuQcovHCG-GAegzs7cZM4' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EimgCZPeg1mBuQcovHCG-GAegzs7cZM4" -O Topics.xml && rm -rf /tmp/cookies.txt
 
 postprocessor.pickle
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1zMWja-Ok4ZPUkgdJJfb4sbHkXrLuKE83' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1zMWja-Ok4ZPUkgdJJfb4sbHkXrLuKE83" -O postprocessor.pickle && rm -rf /tmp/cookies.txt
