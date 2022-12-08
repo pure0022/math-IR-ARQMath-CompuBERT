@@ -15,6 +15,7 @@ To access pickled data objects, please download from this drive (https://drive.g
 <br>
 
 #### Requirements
+First, make sure pytorch version 1.13.0 with cuda 11.6 is enabled on your linux machine. This can be installed from the pytorch website (https://pytorch.org/get-started/locally/)<br>
 Please install the requirements in the requirements.txt file. There are additional requirements to download that can be done directly in the Python Notebook provided.
 <br><br>
 
