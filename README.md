@@ -20,7 +20,7 @@ Please install the requirements in the requirements.txt file. There are addition
 <br><br>
 
 #### The Final IR Model
-The model is fine-tuned in the FinalProject.ipynb file in this GitHub. Within that file you will see every step to recreate the IR system. A sample tsv of results are provided - query-A.301.tsv. This is the results for query-A.301 from the ARQMath competition. 
+The model is fine-tuned in the FinalProject.ipynb file in this GitHub. Within that file you will see every step to recreate the IR system. A sample tsv of results are provided - query-A.301.tsv. This is the results for query-A.301 from the ARQMath competition. Full Results are published in written report.
 <br>
 #### Evaluation
-To evaluate the IR system component of the model, you must download the list of Topics for ARQMath Task 1 (download here: https://drive.google.com/drive/folders/16YHs8kqWRedSTOMDJSzHjGPg4sCl6GEC) into the same data folder where you stored the Post data.
+To evaluate the IR system component of the model, you must download the list of Topics for ARQMath Task 1 (download here: https://drive.google.com/drive/folders/16YHs8kqWRedSTOMDJSzHjGPg4sCl6GEC) into the same data folder where you stored the Post data. For evaluation you also need to make sure you download the latest trec_eval tool (https://trec.nist.gov/trec_eval/). Download and unzip this file in the working directory and change argument for "trec_eval" to the associated directory.
