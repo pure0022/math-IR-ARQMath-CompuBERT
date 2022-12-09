@@ -19,8 +19,9 @@ AnReu/albert-for-arqmath-3,2,0.5562,0.556328661,0.710161964
 AnReu/albert-for-arqmath-3,3,0.5562,0.556328661,0.710161964
 AnReu/albert-for-arqmath-3,4,0.5562,0.556328661,0.710161964
 AnReu/albert-for-arqmath-3,5,0.5562,0.556328661,0.710161964
-sentence-transformers/all-mpnet-base-v2,1,,,
-sentence-transformers/all-mpnet-base-v2,2,,,
-sentence-transformers/all-mpnet-base-v2,3,,,
-sentence-transformers/all-mpnet-base-v2,4,,,
-sentence-transformers/all-mpnet-base-v2,5,,,
+sentence-transformers/all-mpnet-base-v2,1,0.5637,0.565978,0.698083
+sentence-transformers/all-mpnet-base-v2,2,0.591,0.613933,0.656245
+sentence-transformers/all-mpnet-base-v2,3,0.5923,0.618669,0.651509
+sentence-transformers/all-mpnet-base-v2,4,0.5994,0.621339,0.662112
+sentence-transformers/all-mpnet-base-v2,5,0.5999,0.627698,0.653923
+sentence-transformers/all-mpnet-base-v2,6,0.6083,0.625387,0.673774
