@@ -29,10 +29,19 @@ def get_result(trec_eval_tool, qre_file_path, prim_result_dir, evaluation_result
     file_res = open(evaluation_result_file, "w")
     res_ndcg = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "ndcg")
     res_map = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "map")
+    res_p5 = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "P.5")
     res_p10 = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "P.10")
-    file_res.write("System\tnDCG'\tmAP'\tp@10\n")
+    res_p25 = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "P.25")
+    res_p50 = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "P.50")
+    res_p100 = calculated_measure(prim_result_dir, trec_eval_tool, qre_file_path, number_topics, "P.100")
+    file_res.write("System\tnDCG'\tmAP'\tp@5\tp@10\tp@25\tp@50\tp@100\n")
     for sub in res_ndcg:
-        file_res.write(str(sub)+"\t"+str(res_ndcg[sub])+"\t"+str(res_map[sub])+"\t"+str(res_p10[sub])+"\n")
+        file_res.write(str(sub)+"\t"+str(res_ndcg[sub])+"\t"
+                       +str(res_map[sub])+"\t"+str(res_p5[sub])
+                       +"\t"+str(res_p10[sub])+"\t"
+                       +str(res_p25[sub])+"\t"
+                       +str(res_p50[sub])+"\t"
+                       +str(res_p100[sub])+"\n")
     file_res.close()
 
 
